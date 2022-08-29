@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Kolesnik</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.8/fullpage.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JS -->
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.8/fullpage.js"></script>
+    <script defer src="js/index.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+            <li><span data-section="BMW">BMW</span></li>
+            <li>
+                <div class="dropdown">
+                    <div class="Mercedes">Mercedes</div>
+                    <div class="dropdown-content">
+                        <a href="#Mercedes/MercedesBenzE">Mercedes Benz E</a>
+                        <a href="#Mercedes/MercedesGelik">Mercedes Gelik G</a>
+                        <a href="#Mercedes/MercedesW140S">Mercedes W140 S</a>
+                </div>
+              </div>
+            </li>
+            <li><span data-section="HondaCivic">Honda Civic</span></li>
+        </ul>
+    </div>
+
+    <div class="fullpage">
+
+        <div data-index="0" data-anchor="BMW" class="section">
+            <div class="bg" style="background-image: url(img/BMW.jpg)"></div>
+            <div class="content">
+                <h2 class="title">BMW</h2>
+                <p class="text">BMW 3-й серии — несколько поколений легковых автомобилей среднего класса выпускаемых с 1975 года немецким автопроизводителем BMW. Отличаются большим выбором кузовов, разнообразием двигателей и наличием спортивных версий. Самая успешная серия автомобилей в истории компании.</p>
+            </div>
+        </div>
+
+        <div data-index="1" class="section" data-anchor="Mercedes" id="section2">
+            
+            <div class="slide" data-anchor="MercedesBenzE">
+                <div class="bg" style="background-image: url(img/MercedesBenzE.jpg)"></div>
+                <div class="content">
+                    <h2 class="title">Mercedes Benz E</h2>
+                    <p class="text">Mercedes-Benz Е-класс  — серия легковых автомобилей бизнес-класса немецкой торговой марки Mercedes-Benz, официально представленная с 1993 года и в настоящее время состоящая из пяти поколений. 4-дв.</p>
+                </div>
+            </div>
+
+            <div class="slide" data-anchor="MercedesGelik">
+                <div class="bg" id="bg2" style="background-image: url(img/MercedesGelik.jpg)"></div>
+                <div class="content">
+                    <h2 class="title">Mercedes Gelik G</h2>
+                    <p class="text">Mercedes-Benz G-класс, иногда именуемый G-Wagen  — серия полноразмерных внедорожников (автомобилей повышенной проходимости), производимых в Австрии фирмой Magna Steyr и продаваемых под торговой маркой Mercedes-Benz. Выпускается с 1979 года по настоящее время. G-класс был разработан в качестве военного транспортного средства по предложению иранского шаха Мохаммеда Реза Пехлеви, в то время являвшегося акционером компании Mercedes-Benz. Гражданская версия автомобиля была представлена в 1979 году.</p>
+                </div>
+            </div>
+
+            <div class="slide" data-anchor="MercedesW140S">
+                <div class="bg" id="bg3"style="background-image: url(img/MercedesW140S.jpg) "></div>
+                <div class="content">
+                    <h2 class="title">Mercedes W140 S</h2>
+                    <p class="text">Mercedes-Benz W140 — серия флагманских моделей S-класса немецкой торговой марки Mercedes Benz. Официальная презентации состоялась в марте 1991 года на Женевском автосалоне. Серия пришла на смену автомобилям Mercedes-Benz W126, которые, несмотря на свой коммерческий успех, морально и технически устарели к началу 90-х годов.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div data-index="2" data-anchor="HondaCivic" class="section">
+            <div class="bg" style="background-image: url(img/HondaCivic.jpg)"></div>
+            <div class="content">
+                <h2 class="title">Honda Civic</h2>
+                <p class="text">Honda Civic  — компактный автомобиль с поперечно расположенным двигателем, выпускаемый компанией Honda. Впервые представлен в июле 1972 г. Во многом благодаря этой модели, компания Honda вошла в список мировых автопроизводителей. Civic стал первым массовым японским автомобилем высоко оценённым в Европе. Civic считается автомобилем среднего размера, хотя и конкурирует в компактном классе. Название англ. Civic означает «гражданский», «общественный».</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
